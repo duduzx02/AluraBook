@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <title>AluraBooks</title>
@@ -40,9 +41,16 @@
                 </li>
             </ul>
             <img src="imgs/Logo.svg" alt="Logo AluraBooks" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
+            <ul class="opcoes">
+                <li class="opcoes__item">Categorias</li>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+            </ul>
+
         <div class="container">
-            <a href="#"><img src="imgs/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="imgs/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem--transparent"></a>
             <a href="#"><img src="imgs/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
             <a href="#"><img src="imgs/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
@@ -122,7 +130,8 @@
                     <img src="imgs/Estrelinhas.png" alt="">
                     <h3 class="descricao__titulo">Autora do mês</h3>
                     <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-                    <p class="descricao__texto">Analista de sistema e escritora, Juliana é especialista em Front-End.</p>
+                    <p class="descricao__texto">Analista de sistema e escritora, Juliana é especialista em Front-End.
+                    </p>
                 </div>
                 <img src="imgs/Perfil-escritora 1.png" class="descricao__imagem">
             </div>
@@ -167,7 +176,7 @@
     <section class="contato">
         <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
         <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-        <input type="email" class="contato__email" placeholder="Cadastre seu e-mail" >
+        <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
     </section>
 
     <hr>
