@@ -15,3 +15,21 @@
     margin: 1em 0;
 }
 
+.banner__search{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    border-radius: 20px;
+    color: var(--branco);
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__search::placeholder{
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../imgs/Pesquisa.svg") no-repeat;
+    background-position: 0.8em;
+}
