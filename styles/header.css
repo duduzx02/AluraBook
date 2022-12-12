@@ -106,6 +106,27 @@
     display: block;
     width: auto;
   }
+
+  .opcoes__botao:checked~ .opcoes__rotulo> .opcoes__item{
+    background: var(--azul-degrade);
+    color: var(--branco);
+  }
+
+  .opcoes__item{
+    padding: 2em 1em;
+  }
+
+  .lista-menu__item:hover{
+    padding: 1em;
+    background: var(--azul-degrade);
+  }
+
+  .lista-menu__item:hover>.lista-menu__link{
+    -webkit-text-fill-color: var(--branco);
+    text-decoration: none;
+  }
+  
+
 }
 
 @media screen and (min-width: 1728px) {
